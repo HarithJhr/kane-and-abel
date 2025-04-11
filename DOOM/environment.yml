@@ -1,0 +1,29 @@
+name: doom
+channels:
+  - defaults
+dependencies:
+  - bzip2
+  - ca-certificates
+  - libffi
+  - openssl
+  - pip
+  - python=3.10.16
+  - setuptools
+  - sqlite
+  - tk
+  - tzdata
+  - wheel
+  - xz
+  - zlib
+  - pip:
+      - cloudpickle==3.1.1
+      - farama-notifications==0.0.4
+      - gymnasium==1.0.0
+      - numpy==2.2.3
+      - opencv-python==4.11.0.86
+      - pygame==2.6.1
+      - stable_baselines3==2.5.0
+      - tensorboard
+      - torch==2.5.1
+      - typing-extensions==4.12.2
+      - vizdoom==1.2.4

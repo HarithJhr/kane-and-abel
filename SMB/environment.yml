@@ -1,0 +1,28 @@
+name: super_mario_bros
+channels:
+  - defaults
+dependencies:
+  - bzip2
+  - ca-certificates
+  - libffi
+  - openssl
+  - pip
+  - python=3.8
+  - setuptools
+  - sqlite
+  - tk
+  - tzdata
+  - wheel
+  - xz
+  - zlib
+  - pip:
+      - gym==0.26.2
+      - gym-super-mario-bros==7.4.0
+      - gymnasium==1.0.0
+      - nes-py==8.2.1
+      - numpy==1.24.4
+      - opencv_python==4.11.0.86
+      - shimmy==2.0.0
+      - stable_baselines3==2.4.1
+      - tensorboard
+      - torch==1.13.1

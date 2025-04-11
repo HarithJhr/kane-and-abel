@@ -1,0 +1,7 @@
+gymnasium==1.0.0
+numpy==2.2.3
+opencv_python==4.11.0.86
+stable_baselines3==2.5.0
+tensorboard
+torch==2.5.1
+vizdoom==1.2.4

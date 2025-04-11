@@ -1,0 +1,9 @@
+gym==0.26.2
+gym_super_mario_bros==7.4.0
+nes_py==8.2.1
+numpy==1.24.4
+opencv_python==4.11.0.86
+shimmy==2.0.0
+stable_baselines3==2.4.1
+tensorboard
+torch==1.13.1
